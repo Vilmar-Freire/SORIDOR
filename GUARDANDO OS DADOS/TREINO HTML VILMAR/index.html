@@ -34,6 +34,21 @@
         display:block;
     }
 </style>
+
+<style>
+    article{
+        padding: 15px;
+        border:2px solid #000;
+        border-radius: 10px;
+        background-color: #eeee;
+        margin-bottom: 10px;
+    }
+
+    article h1{
+        color: #f00;
+
+    }
+</style>
 </head>
 <body>
 
@@ -126,16 +141,38 @@
     <p>The <a href="#whatwg"><abbr title="web Hypertext Application Technogy working Group">whatwg</abbr></a>community does not have much representation from Asia.</p>
 
     <footer>
+    
         <address>
             Autor: Bruno P. Campos<br>
             Se inscreva em nosso <a href="http://www.youtube.com/cfbcursos" target="-blank">canal no Youtube</a>
         </address>
+    
     </footer>
+    <!--A tags article ela representa uma sessão independente no documento isso quer dizer que eu posso ter quantos article necessário cada uma representando cada documento com assunto especifico ou alguma área especifica do nosso documento. Ele display block -->
 
-    
+    <article>
+        <h1>CFB Cursos</h1>
+        <p>Canal de cursos gratuitos no Youtube</p>
+    </article>
 
+    <article>
+        <h1>Cursos disponíveis</h1>
+        <p>HTML / HTML5 / HTML Completo e Profissional</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+        <p>C++</p>
+        <p>Qt Creator</p>
+        <p>PHP /MYSQL</p>
+        <p>Unity / C#</p>
+        <p>Photoshop</p>
+        <p>Flash</p>
+        <p>Arduino</p>
+    </article>
 
-    
+    <article>
+        <h1>Cursos Html Completo e Profissional</h1>
+        <p>Neste curso vamos aprender sobre todas as tags de HTML5</p>
+    </article>
 
 
 </body>
